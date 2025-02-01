@@ -14,5 +14,5 @@ metadata:
     kener.ing/statusBadge: "https://kener.ing/badge/aws/status"
 spec:
   type: service
-  owner: team-aws
+  owner: team-aws        
   lifecycle: production
