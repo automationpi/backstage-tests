@@ -2,10 +2,17 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: aws-service-with-kener-badges
-  description: "An AWS service demonstrating Kener badges usage"
+  description: |
+    This AWS service demonstrates the integration of Kener badges into Backstage.
+  links:
+    - title: Service Homepage
+      url: https://example.com
+    - title: Documentation
+      url: https://example.com/docs
   annotations:
     kener.ing/uptimeBadge: "https://kener.ing/badge/aws/uptime"
     kener.ing/statusBadge: "https://kener.ing/badge/aws/status"
 spec:
   type: service
+  owner: team-aws
   lifecycle: production
