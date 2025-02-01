@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-service-with-kener-badges
+  description: "An AWS service demonstrating Kener badges usage"
+  annotations:
+    kener.ing/uptimeBadge: "https://kener.ing/badge/aws/uptime"
+    kener.ing/statusBadge: "https://kener.ing/badge/aws/status"
+spec:
+  type: service
+  lifecycle: production
