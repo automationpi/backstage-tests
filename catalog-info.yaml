@@ -10,7 +10,7 @@ metadata:
     - title: Documentation
       url: https://example.com/docs
   annotations:
-    kener.ing/uptimeBadge: "https://kener.ing/badge/aws/uptime"
-    kener.ing/statusBadge: "https://kener.ing/badge/aws/status"
+    kener/uptimeBadge: "https://kener.ing/badge/aws/uptime"
+    kener/statusBadge: "https://kener.ing/badge/aws/status"
 spec:
   owner: team-aws
