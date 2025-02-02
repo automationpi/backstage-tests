@@ -4,11 +4,6 @@ metadata:
   name: aws-system-with-kener-badges
   description: |
     This AWS system demonstrates the integration of Kener badges into Backstage.
-  links:
-    - title: System Homepage
-      url: https://example.com
-    - title: Documentation
-      url: https://example.com/docs
   annotations:
     kener/uptimeBadge: "https://kener.ing/badge/aws/uptime"
     kener/statusBadge: "https://kener.ing/badge/aws/status"
